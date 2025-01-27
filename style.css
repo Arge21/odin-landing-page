@@ -20,16 +20,21 @@ body {
 
 .main-container header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 20px 200px;
+    padding: 20px 15%;
 }
 
 .main-container header p {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.main-container header nav {
+    display: flex;
+    gap: 25px;
 }
 
 .header-links {
