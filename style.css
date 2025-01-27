@@ -86,3 +86,53 @@ body {
     align-items: center;
 }
 
+.second-section {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15%;
+}
+
+.second-top {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.second-top h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+.second-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.whole-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-bottom p {
+    display: flex;
+    text-align: center;
+    width: 70%;
+}
+
+.box {
+    border-width: 3px;
+    border-color: #389df6;
+    border-style: solid;
+    width: 130px;
+    height: 125px;
+    border-radius: 10px;
+
+}
