@@ -136,3 +136,29 @@ body {
     border-radius: 10px;
 
 }
+.third-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    width: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic; 
+    color: #1F2937;
+    font-weight: lighter;
+    text-align: start;
+    text-wrap-style: balance;
+}
+
+.quote-author {
+    justify-self: flex-end;
+    margin-right: 20px;
+}
